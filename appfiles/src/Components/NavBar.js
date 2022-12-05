@@ -14,19 +14,19 @@ import {
 
 export default function NavBar() {
     return (
-        <Router>
-            <Navbar bg="light" expand="lg">
-                <Container>
-                    <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
-                    <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                    <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="me-auto">
-                            <Link to={SignIn}><Nav.Link>Vpiši me</Nav.Link></Link>
-                            <Link to={Registration}><Nav.Link>Registriraj me</Nav.Link></Link>
-                        </Nav>
-                    </Navbar.Collapse>
-                </Container>
-            </Navbar>
-        </Router>
+        <Navbar bg="dark" variant="dark" style={{position: "absolute", width: "100vw"}}>
+            <Container>
+                <Navbar.Brand href="/">RoKilianCars</Navbar.Brand>
+                <Nav className="me-auto">
+                    <Nav.Link href="/iskanje">Iskanje osebnih vozil</Nav.Link>
+                    <Nav.Link href="/iskanje">Objava oglasa</Nav.Link>
+                </Nav>
+                <Navbar.Collapse className="justify-content-end">
+                    <Navbar.Text>
+                        <a href="/prijava">Prijava</a>
+                    </Navbar.Text>
+                </Navbar.Collapse>
+            </Container>
+        </Navbar>
     );
 }

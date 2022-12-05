@@ -1,0 +1,21 @@
+.landingContainer {
+    padding: 100px;
+    color: white;
+    background-image: url(../Images/lambo.jpg);
+    height: 100vh;
+}
+
+.landingTextContainer {
+    text-align: left;
+    margin-top: 26vh;
+    width: 30vw;
+}
+
+.landingTitle {
+    font-size: 66px;
+}
+
+.landingText {
+    font-size: 36px;
+    padding-bottom: 20px;
+}
