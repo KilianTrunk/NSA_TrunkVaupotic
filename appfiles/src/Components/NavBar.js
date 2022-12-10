@@ -1,16 +1,6 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import SignIn from '../Screens/SignInScreen';
-import Registration from '../Screens/RegistrationScreen';
-import NavDropdown from 'react-bootstrap/NavDropdown';
-import {
-    BrowserRouter as Router,
-    Switch,
-    Route,
-    Link
-} from "react-router-dom";
-
 
 export default function NavBar() {
     return (
@@ -23,7 +13,8 @@ export default function NavBar() {
                 </Nav>
                 <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text>
-                        <a href="/prijava">Prijava</a>
+                        <a href="/prijava" className='navbar-end-txt'>Prijava</a>
+                        <a href="/registracija" className='navbar-end-txt'>Registracija</a>
                     </Navbar.Text>
                 </Navbar.Collapse>
             </Container>

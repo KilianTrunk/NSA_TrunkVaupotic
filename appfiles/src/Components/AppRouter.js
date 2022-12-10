@@ -1,5 +1,6 @@
 import '../App.css';
 import NavBar from './NavBar';
+import Footer from './Footer';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import HomeScreen from '../Screens/HomeScreen';
 import Registration from '../Screens/RegistrationScreen';
@@ -19,6 +20,7 @@ export default function AppRouter() {
         <Route path="/prijava" element={<SignIn />} />
         <Route path="/registracija" element={<Registration />} />
       </Routes>
+      <Footer />
     </BrowserRouter>
   );
 }

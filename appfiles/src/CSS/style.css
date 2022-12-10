@@ -1,3 +1,29 @@
+/* GLOBAL */
+
+body {
+    background-color: black;
+    overflow-x: hidden;
+}
+
+
+/* NAVBAR */
+
+.navbar-end-txt {
+    padding-left: 20px;
+    text-decoration: none;
+}
+
+
+/* CAROUSEL */
+
+.carousel-images {
+    width: 800px;
+    height: 550px;
+}
+
+
+/* HOMESCREEN - LANDINGSECTION */
+
 .landingContainer {
     padding: 100px;
     color: white;
@@ -18,4 +44,50 @@
 .landingText {
     font-size: 36px;
     padding-bottom: 20px;
+}
+
+
+/* HOMESCREEN - BUYINGTIPSSECTION */
+
+.buyingTipsContainer {
+    padding: 120px 80px;
+    color: white;
+    background-color: #212529;
+    height: 100vh;
+}
+
+.buyingTipsMainText {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.buyingTipsSecondaryText {
+    font-size: 24px;
+    color: gray;
+    padding-bottom: 60px;
+}
+
+
+/* HOMESCREEN - NEWSSECTION */
+
+.newsContainer {
+    padding: 100px;
+    color: white;
+    height: 40vh;
+}
+
+.newsMainText {
+    font-weight: bold;
+    font-size: 36px;
+}
+
+.newsSecondaryText {
+    font-size: 24px;
+    color: gray;
+}
+
+.newsContainer Form {
+    width: 50%;
+    margin: auto;
+    padding-top: 30px;
 }
