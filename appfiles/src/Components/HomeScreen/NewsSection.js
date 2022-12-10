@@ -15,7 +15,7 @@ export default function NewsSection() {
                 <Form.Group className="mb-3" controlId="formEmail">
                     <Form.Control type="email" placeholder="Vnesite vaš elektronski naslov" />
                 </Form.Group>
-                <Button variant="light" type="submit">
+                <Button variant="dark" type="submit">
                     Prijava na oglaševanje
                 </Button>
             </Form>
