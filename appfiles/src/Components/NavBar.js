@@ -1,6 +1,8 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUser, faUserPen } from '@fortawesome/free-solid-svg-icons'
 
 export default function NavBar() {
     return (
@@ -13,8 +15,8 @@ export default function NavBar() {
                 </Nav>
                 <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text>
-                        <a href="/prijava" className='navbar-end-txt'>Prijava</a>
-                        <a href="/registracija" className='navbar-end-txt'>Registracija</a>
+                        <a href="/prijava" className='navbar-end-txt'> <FontAwesomeIcon icon={faUser} className="navbar-ikona" />Prijava</a>
+                        <a href="/registracija" className='navbar-end-txt'> <FontAwesomeIcon icon={faUserPen} className="navbar-ikona" />Registracija</a>
                     </Navbar.Text>
                 </Navbar.Collapse>
             </Container>
