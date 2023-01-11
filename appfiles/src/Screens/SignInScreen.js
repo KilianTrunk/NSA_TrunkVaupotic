@@ -7,19 +7,19 @@ export default function SignIn() {
     <Container>
       <Form className='padding'>
         <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control type="email" placeholder="Enter email" />
+          <Form.Label>Email naslov</Form.Label>
+          <Form.Control type="email" placeholder="Vnesite email naslov" />
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicPassword">
-          <Form.Label>Password</Form.Label>
-          <Form.Control type="password" placeholder="Password" />
+          <Form.Label>Geslo</Form.Label>
+          <Form.Control type="password" placeholder="Vnesite geslo" />
         </Form.Group>
         <Form.Group className="mb-3" controlId="formBasicCheckbox">
-          <Form.Check type="checkbox" label="Check me out" />
+          <Form.Check type="checkbox" label="Zapomni si me" />
         </Form.Group>
         <Button variant="primary" type="submit">
-          Submit
+          Potrdi
         </Button>
       </Form>
     </Container>

@@ -95,7 +95,9 @@ body {
     margin: auto;
     padding-top: 30px;
 }
+
 .padding {
     padding: 40vh 0;
-    
+    text-shadow: white 1px 1px;
+    font-size: 30px;
 }

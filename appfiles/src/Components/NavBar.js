@@ -10,8 +10,8 @@ export default function NavBar() {
             <Container>
                 <Navbar.Brand href="/">RoKilianCars</Navbar.Brand>
                 <Nav className="me-auto">
-                    <Nav.Link href="/iskanje">Iskanje osebnih vozil</Nav.Link>
-                    <Nav.Link href="/iskanje">Objava oglasa</Nav.Link>
+                    <Nav.Link href="#">Iskanje osebnih vozil</Nav.Link>
+                    <Nav.Link href="#">Objava oglasa</Nav.Link>
                 </Nav>
                 <Navbar.Collapse className="justify-content-end">
                     <Navbar.Text>
