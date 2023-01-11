@@ -5,7 +5,7 @@ import Form from 'react-bootstrap/Form';
 export default function Registration() {
     return (
         <Container>
-            <Form>
+            <Form className='padding'>
                 <Form.Group className="mb-3" controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control type="username" placeholder="Enter username" />
