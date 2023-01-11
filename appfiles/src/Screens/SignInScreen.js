@@ -5,7 +5,7 @@ import Container from 'react-bootstrap/esm/Container';
 export default function SignIn() {
   return (
     <Container>
-      <Form>
+      <Form className='padding'>
         <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Email address</Form.Label>
           <Form.Control type="email" placeholder="Enter email" />
